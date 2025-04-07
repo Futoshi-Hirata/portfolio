@@ -1,0 +1,2599 @@
+@charset "UTF-8"; /* 文字コード */
+
+/* Webフォント指定 */
+
+@font-face {
+  font-family: Genshin_B;
+  src: url("../fonts/GenShinGothic-Bold.woff")format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Genshin_H;
+  src: url("../fonts/GenShinGothic-Heavy.woff")format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Genshin_M;
+  src: url("../fonts/GenShinGothic-Medium.woff")format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Hannari;
+  src: url("../fonts/HannariMincho-Regular.woff")format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: NotoSans;
+  src: url("../fonts/NotoSansJP-Medium.woff")format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Philosoph_I;
+  src: url("../fonts/Philosopher-Italic.woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Philosoph_R;
+  src: url("../fonts/Philosopher-Regular.woff");
+  font-weight: normal
+}
+
+body {
+  color: #212529;
+  font-family: NotoSans;
+}
+
+/* ヘッダー */
+#header_header {
+  position: relative;
+  background-image: url(../img/header.jpg);
+  width: 100vw;
+  height: 66.6178623719vw;
+  background-position: center;
+  background-size: cover;
+}
+
+
+#header_img img {
+  position: absolute;
+  width: 29.911vw;
+  height: 27.4vw;
+  right: 11.225vw;
+  top: 21.423vw;
+  margin-top: 0.66032vw;
+  padding: 0;
+}
+
+.text {
+  position: absolute;
+  top: 3.822334vw;
+  right: 6vw;
+  font-family: 'Hannari';
+  font-size: 5.1vw;
+  color: #63977e;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+}
+
+.index_1 {
+  letter-spacing: -0.03em;
+  position: absolute;
+  right: 16.7vw;
+  top: 16vw;
+  font-size: 2.04978vw;
+  font-family: 'NotoSans';
+}
+
+.text_1 {
+  display: inline-block;
+  top: 53.3vw;
+  width: 20vw;
+  right: 28vw;
+  line-height: 1;
+  position: absolute;
+  font-family: 'Philosoph_R';
+  font-size: 2.3vw;
+  letter-spacing: 0.04em;
+}
+
+.text_1::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2.6vw;
+  width: 15.7vw;
+  height: 0.6vw;
+  background-color: #B391A2;
+  padding-left: 11vw;
+}
+
+.text_2 {
+  font-size: 2.48vw;
+  font-family: 'NotoSans';
+  font-weight: 500;
+}
+
+.text_3 {
+  position: absolute;
+  font-family: 'Hannari';
+  font-size: 3.2947vw;
+  line-height: 0.9;
+  top: 57.1vw;
+  left: 51.6vw;
+  letter-spacing: -0.034em;
+}
+
+.text_3::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3.3vw;
+    width: 42vw;
+    height: 0.9vw;
+    background-color: #B391A2;
+    padding-left: 11vw;
+}
+
+/* インスタグラム紹介 */
+#insta {
+  width: 100vw;
+  height: 57.395vw;
+  text-align: center;
+  background-size: cover;
+}
+
+.insta_title {
+    /* position: absolute; */
+    margin-top: 3vw;
+    /* top: 1vw; */
+    right: 25vw;
+}
+
+.insta_title {
+    /* position: absolute; */
+    /* top: 10vw; */
+}
+
+.insta_title_img {
+  width: 69.743vw;
+}
+
+.insta_subtitle {
+  font-size: 2.4890vw;
+  letter-spacing: 0.05vw;
+  display: inline-block;
+  font-family: 'NotoSans';
+}
+
+.insta_post {
+  margin: auto;
+  height: 43vw;
+  width: 79.282vw;
+  font-size: 1.1713vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.insta_sample_img {
+  margin: 0;
+  padding: 0;
+  width: 12.445vw;
+  height: 12.445vw;
+}
+
+.sample {
+  padding: 0;
+  margin-top: 0.5vw;
+  margin-left: 0.732vw;
+  display: flex;
+  height: 2.3426vw;
+}
+
+.insta_icon_title {
+  width: 4.34260vw;
+  height: 2.34260vw;
+}
+
+#insta .insta_icon_img{
+  padding: 0;
+  width: 2.34260vw;
+  height: 2.34260vw;
+}
+
+.post_section {
+  position: relative;
+  margin: auto;
+  border-style: solid;
+  border-width: 0.07326vw;
+  border-color: gray;
+  width: 12.591vw;
+  height: 37.847vw;
+}
+
+#insta .sample_text {
+  display: inline-block;
+  padding: 0.8vw 0 0 0;
+  text-align: left;
+  line-height: 1.35em;
+  letter-spacing: -0.1em;
+  width: 11vw;
+  height: 15.836vw;
+  font-size: 1.2vw;
+  font-family: 'NotoSans';
+}
+
+#insta .insta_date {
+  position: absolute;
+  right: 0.80527vw;
+  top: 32vw;
+  padding: 0;
+  margin: 0;
+}
+
+/* キャンペーン案内 */
+.campaign {
+  position: relative;
+  background: linear-gradient(#eaf6f0,#e3fcf5);
+  width: 100vw;
+  height: 59.883vw;
+  background-size: cover;
+}
+
+.ribbon {
+  /* margin-top: 0vw; */
+  height: 11vw;
+  text-align: center;
+}
+
+.ribbon_img {
+  /* padding: 0; */
+  margin-top: 3vw;
+  width: 70vw;
+}
+
+.figure {
+  position: absolute;
+  top: 18.594vw;
+  right: 60.322vw;
+  text-align: center;
+}
+
+.figure_img {
+  position: absolute;
+  width: 29.856vw;
+  /* height: 28.917vw; */
+  margin-left: 10.029vw;
+  margin-top: 7.028vw;
+}
+
+.campaign .figcaption {
+  display: inline-block;
+  position: absolute;
+  font-size: 2.2vw;
+  margin-left: 13.982vw;
+  margin-top: 36.999vw;
+  letter-spacing: -0.02em;
+  font-family: 'NotoSans';
+}
+
+.campaign_text {
+  width: 56.296vw;
+  top: 18.009vw;
+  margin-left: 42.972vw;
+  position: absolute;
+}
+
+.campaign .campaign_text1 {
+  display: inline-block;
+  position: absolute;
+  width: 51vw;
+  height: 8.5vw;
+  font-family: 'Hannari';
+  font-size: 4.5vw;
+  line-height: 2.8vw;
+  letter-spacing: -0.4vw;
+  margin-left: 42.8vw;
+  margin-top: 7.9vw;
+  border-bottom: 2px #91b3a2 solid;
+}
+
+.campaign .campaign_text2 {
+  position: relative;
+}
+
+.campaign .campaign_text1_span{
+  font-family: 'NotoSans';
+  font-size: 2.1vw;
+  letter-spacing: 0.0vw;
+  display: inline-block;
+  margin-left: 0.9vw;
+  margin-bottom: 2vw;
+}
+
+.campaign .campaign_text2_1 {
+  position: absolute;
+  font-size: 1.977vw;
+  font-weight: 500;
+  display: inline-block;
+  margin-left: 43.7vw;
+  margin-top: 19vw;
+  letter-spacing: -0.04em;
+}
+
+.campaign_text2_1::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 13vw;
+  transform: translate(-13vw);
+  top: 1.6vw;
+  width: 18vw;
+  height: 0.1vw;
+  background-color: #000000;
+}
+
+.campaign .number {
+  font-family: 'Philosoph_R';
+}
+
+.campaign .campaign_text2_2 {
+  font-size: 2.196vw;
+  font-weight: 500;
+  display: inline-block;
+  position: absolute;
+  width: 17.936vw;
+  margin-top: 21.99vw;
+  margin-left: 43.6vw;
+  letter-spacing: -0vw;
+}
+
+.campaign .campaign_text2_3 {
+  display: inline-block;
+  position: absolute;
+  font-size: 1.977vw;
+  margin-left: 62.958vw;
+  margin-top: 17.13vw;
+}
+
+.campaign .campaign_text2_3_first {
+  font-family: Philosoph_R;
+  font-size: 7.906vw;
+  color: red;
+}
+
+.campaign .campaign_text2_3_second {
+  color: red;
+  font-family: NotoSans;
+  font-weight: 500;
+  font-size: 3.807vw;
+}
+
+.campaign .campaign_text2_4 {
+  display: inline-block;
+  position: absolute;
+  margin-left: 43.7vw;
+  margin-top: 37.7vw;
+  font-size: 3vw;
+  line-height: 1.0;
+  color: #BC0000;
+  border-bottom: 0.659vw solid #b391a2;
+}
+
+.campaign .campaign_button {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  width: 46.486vw;
+  height: 7.467vw;
+  font-size: 3.6vw;
+  font-family: 'Hannari';
+  color: #ffffff;
+  margin-left: 43.6vw;
+  margin-top: 28.5vw;
+  padding-top: 0.49vw;
+  padding-right: 0.2vw;
+  letter-spacing: 0.5vw;
+  background: linear-gradient(#adc6b9, #93b5a4);
+  border-radius: 0.449vw;
+  line-height: 1.7;
+  cursor: pointer;
+}
+
+.campaign .campaign_text2_5 {
+  width: 32.943vw;
+  position: absolute;
+  font-size: 2.123vw;
+  margin-left: 43.7vw;
+  margin-top: 41.5vw;
+}
+
+
+.traiangle_img1 {
+  vertical-align: text-bottom;
+  width: 3.89vw;
+}
+
+
+/* アンケート */
+#questionnaire {
+  background-image: url(../img/empathy.jpg);
+  width: 100vw;
+  height: 60.029vw;
+  background-size: cover;
+  background-position: 0.6vw -3.5vw;
+  text-align: center;
+}
+
+.questionnaire_questionnaire {
+  display: inline-block;
+  height: 60.029vw;
+  padding-top: 3.767vw;
+}
+
+.questionnaire_title {
+  width: 79.941vw;
+  font-family: 'Hannari';
+  font-size: 5.417vw;
+  color: #63977E;
+  border-bottom: 1.464vw solid #B391A2;
+  line-height: 0.9;
+  text-align: left;
+  margin-bottom: 9.9vw;
+  letter-spacing: 0.29vw;
+}
+
+
+.check_answer {
+  text-align: left;
+}
+
+.answer {
+  margin-top: 3.2vw;
+  font-size: 2.1vw;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  font-family: 'NotoSans';
+}
+
+.c-answer {
+   margin-top: -2vw;
+  margin-left: 0.6vw;
+  letter-spacing: 0.4em;
+  font-size: 3vw;
+  display: inline-block;
+}
+
+.check_img {
+  width: 2.05vw;
+  height: 1.903vw;
+  font-size: 1.757vw;
+  margin-right: 2.123vw;
+  text-align: left;
+}
+
+/* 調査結果 */
+#couse {
+  position: relative;
+  width: 100vw;
+  height: 81.113vw;
+  text-align: center;
+}
+
+.exhibit_1_back {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 40.63vw;
+  background-image: url("../img/exhibit1.jpg");
+  background-size: cover;
+}
+
+.exhibit_2_back {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 40.63vw;
+  background-image: url("../img/exhibit2.jpg");
+  background-size: cover;
+}
+
+.exhibit_2 {
+    padding-right: 10vw;
+}
+
+.exhibit_title {
+  font-size: 3.514vw;
+  font-family: 'Hannari';
+  color: #63977e;
+  border-bottom: 1.098vw #B391A2 solid;
+  display: inline-block;
+  margin-top: 4vw;
+  margin-right: 15.842vw;
+  line-height: 0.9;
+  letter-spacing: 0.09vw;
+  width: 65vw;
+  text-align: left;
+}
+
+.-second {
+  margin-top: 6.3vw;
+  width: 54vw;
+  letter-spacing: 0.08vw;
+  padding-bottom: 0.18vw;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.294vw;
+}
+
+.content_text {
+  display: inline-block;
+  width: 44.816vw;
+  height: 23.117vw;
+  font-size: 1.977vw;
+  text-align: left;
+  z-index: 9;
+  font-family: 'NotoSans';
+  letter-spacing: 0.0091em;
+}
+
+.content_text_first {
+  margin-top: 2.7vw;
+  letter-spacing: 0.045vw;
+}
+
+.content_second {
+  letter-spacing: 0.157vw;
+}
+
+.content_text_first1 {
+  margin-top: 0vw;
+  letter-spacing: 0.038vw;
+}
+
+.content_text_right {
+  margin-right: 5.154vw;
+}
+
+.content_text_left {
+  margin-left: 5.154vw;
+}
+
+.content_img {
+  width: 29.868vw;
+  height: 19.912vw;
+  display: inline-block;
+}
+
+.img_left {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.animate__animated {
+  opacity: 0;
+}
+
+.Arrow_img {
+  position: absolute;
+  display: inline-block;
+  width: 25vw;
+  z-index: 9;
+  top: 36vw;
+  right: 37.3vw;
+}
+
+/* こだわり */
+.point_section {
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/benefit.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 138.5vw
+}
+
+.point_back {
+    background-image: url();
+}
+
+.point_title {
+  font-family: 'Hannari';
+  letter-spacing: 0.079em;
+  font-size: 4.978vw;
+  color: #63977e;
+  margin-top: 6.2vw;
+  line-height: 1.2;
+}
+
+.point_content {
+  text-align: center;
+  margin-top: 6vw;
+}
+
+.point_point {
+  display: flex;
+  height: 27.904vw;
+  width: 100vw;
+  margin-top: 2.4vw;
+  font-family: 'NotoSans';
+}
+
+.point_point3 {
+    margin-top: 3vw;
+}
+
+.point_point3 .point_text_title {
+}
+
+.point_img_benefit {
+  display: inline-block;
+  width: 30.966vw;
+  margin-top: -0.5vw;
+}
+
+.point_point2 .point_img_benefit {
+    display: inline-block;
+    width: 30.966vw;
+}
+
+.point_point2 .point_img {
+    width: 31vw;
+    margin-left: 10vw;
+}
+
+.point-point2 .point_img {
+    width: 4vw;
+}
+
+.point_text {
+  display: inline-block;
+  text-align: left;
+  width: 43.138vw;
+  height: 25.094vw;
+  margin-left: 9.8vw;
+  margin-right: 6vw;
+}
+
+.point_point4 .point_text {
+    margin-right: 10vw;
+    margin-left: 6vw;
+}
+
+.point_poijnt4 .point_text {
+    margin-left: 0vw;
+}
+
+.point_point3 .point_text {
+    width: 44vw;
+    margin-right: 5vw;
+}
+
+.point_point2 .point_text {
+  margin-right: 10vw;
+  margin-left: 5.99vw;
+  
+}
+
+.point_text_title {
+  font-family: 'Hannari';
+  font-size: 3.514vw;
+  border-bottom: solid #B391A2 1.098vw;
+  line-height: 0.9;
+  letter-spacing: 0.019em;
+  width: 25vw;
+}
+
+
+.point_point3 .point_text_title {
+    width: 33vw;
+}
+
+.point_point2 .point_text_title {
+    width: 21.8vw;
+}
+
+.point_point4 .point_text_title {
+    width: 40vw;
+}
+
+.point_text_content {
+  border-top: 1px solid #212529;
+  font-family: 'NotoSans';
+  font-size: 2vw;
+  padding-top: 1vw;
+  letter-spacing: -0.01em;
+  height: 15vw;
+  margin-top: 0.8vw;
+}
+
+.point_caption {
+  font-size: 1.757vw;
+  font-family: 'NotoSans';
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+.point_point2 .point_caption {
+    margin-left: 10vw;
+}
+
+.pint_point2 .point_caption {
+    padding-left: 3vw;
+}
+
+/* 使い方 */
+.step_wrap {
+  background: linear-gradient(#ffffff, #e5fdf6);
+  background-size: cover;
+  width: 100vw;
+  height: 141vw;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+}
+
+.step_title {
+  width: 100vw;
+  font-size: 4.9vw;
+  font-family: 'Hannari';
+  letter-spacing: 0.26vw;
+  color: #63977E;
+  margin-top: 5.403vw;
+  margin-bottom: 2vw;
+  display: inline-block;
+}
+
+.step_inner {
+  display: inline-block;
+}
+
+.step_section {
+  width: 80vw;
+  height: 20vw;
+  border-bottom: 1px solid #808080;
+  display: flex;
+  margin-top: 4.694vw;
+  margin-bottom: 3.36vw;
+  padding: unset;
+}
+
+.step_section.step_section4 {
+    margin-top: 4.26vw;
+}
+
+.step_section_last {
+  border-bottom: none;
+}
+
+.use_step_img {
+  display: inline-block;
+  width: 34.993vw;
+  height: 17.496vw;
+  margin-right: 5.249vw;
+  padding: 0;
+}
+
+.step_text {
+  text-align: left;
+  display: inline-block;
+  width: 38.422vw;
+  height: 17.496vw;
+  font-size: 1.977vw;
+  font-family: 'NotoSans';
+  padding-left: 5.249vw;
+  border-left: 0.073vw solid #808080;
+}
+
+.step_text_number {
+  display: inline-block;
+  font-size:3.587vw;
+  font-family: Philosoph_I;
+  border-bottom:  0.4vw solid;
+  line-height: 0.8;
+}
+
+.step_text_content {
+  width: 34.001vw;
+  height: 11.338vw;
+  margin-top: 4.5vw;
+}
+
+/* お客様からのよくあるご質問 */
+#qa {
+  position: relative;
+  background-image: url("../img/Q_A.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 169.18vw;
+  text-align: center;
+}
+
+.qa_wrap {
+  position: absolute;
+}
+
+.qa_title {
+  display: inline-block;
+  color: #63977E;
+  font-size: 4.978vw;
+  font-family: 'Hannari';
+  letter-spacing: 0.2vw;
+  font-weight: unset;
+  margin-top: 6.4672vw;
+  margin-bottom: 7.44vw;
+}
+
+.qa_inner {
+  display: inline-block;
+  font-size: 2vw;
+  width: 79.941vw;
+  height: 23.184vw;
+  text-align: left;
+  font-family: 'NotoSans';
+  letter-spacing: -0.003em;
+  border-bottom: 1px #808080 solid;
+  padding: 0;
+  margin: 0.7vw;
+}
+
+.pa_inner1 {
+  margin-top: 2vw;
+}
+
+.pa_inner2 {
+    margin-top: 0vw;
+}
+
+.pa_inner4 {
+    margin-top: 3vw;
+    padding-top: 0vw;
+}
+
+.pa_inner5 {
+    padding-top: 2vw;
+}
+
+.qa_question p {
+    display: inline-block;
+}
+
+.qa_inner_inner {
+  color: #63977E;
+  width: 3.514vw;
+  height: 4.466vw;
+  display: inline-block;
+  margin-top: 0;
+  font-family: 'Philosoph_R';
+  font-size: 4vw;
+  margin-right: 1vw;
+}
+
+.pa_inner3 {
+  margin-top: 1vw;
+  padding-top: 3vw;
+}
+
+.qa_inner3 .qa_inner_inner {
+  margin-left: 0vw;
+}
+
+.qa_answer {
+  color: #9D3E3E;
+  width: 3.514vw;
+  height: 4.466vw;
+  display: inline-block;
+  margin-top: 0;
+  line-height: 0.5;
+}
+
+.qa_inner_inner_inner {
+  display: flex;
+  margin-top: 4.993vw;
+}
+
+.qa_inner_inner_inner p {
+}
+
+.qa_inner_inner_inner p {
+  display: inline-block;
+}
+
+.step_section_last {
+  border-bottom: none;
+}
+
+/* お問い合わせここから */
+#contract {
+  font-size: 1.977vw;
+  font-family: Genshin_M;
+  width: 100vw;
+  height: 165.3vw;
+  text-align: center;
+}
+
+#contact_form_area1 {
+  width: 79.868vw;
+  height: 90.776vw;
+  display: inline-block;
+  border: 1px solid #808080;
+  border-radius: 0.659vw;
+  background-color: #ffffff;
+  margin-top: 0.1vw;
+}
+
+.contract_wrap {
+  display: inline-block;
+  text-align: center;
+  width: 79.868vw;
+  height: 153.88vw;
+}
+
+
+.custmer_title {
+  background-color: #F1EFED;
+  font-family: 'NotoSans';
+  font-size: 2.928vw;
+  margin-top: 4.978vw;
+  margin-bottom: 8vw;
+  padding-top: 0.4vw;
+  border-radius: 0.586vw;
+  height: 5vw;
+  letter-spacing: 0.69vw;
+}
+
+.custmer_text_title {
+  display: flex;
+  line-height: 2.2;
+}
+
+
+.custmer_information {
+  display: flex;
+  width: 69.619vw;
+  height: 4.1466vw;
+  margin-top: 4.29vw;
+  position: relative;
+  margin-left: 5.124vw;
+}
+
+.custmer_information:nth-child(1) {
+    margin-top: 5vw;
+}
+
+.custmer_information:nth-child(2) {
+    margin-top: 4vw;
+}
+
+.custmer_information:nth-child(4) {
+    margin-top: 3.8vw;
+}
+
+.custmer_information:nth-child(5) {
+    margin-top: 3.8vw;
+}
+
+.custmer_information:nth-child(6) {
+    margin-top: 3.9vw;
+}
+
+.custmer_information:nth-child(8) {
+    margin-top: 3.9vw;
+}
+
+.-group2 {
+    margin-top: 7.3vw;
+}
+
+.-group1 {
+    margin-top: 7.2vw;
+}
+
+.-group3 {
+    margin-top: 7.3vw;
+}
+
+
+.form_parts {
+  width: 23.06vw;
+  height: 4.466vw;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 0.22vw;
+  margin-left: 24vw;
+  padding-left: 1vw;
+}
+
+.form_input {
+  position: absolute;
+}
+
+
+#usercity, #buildname, #emailadress {
+  width: 45.388vw;
+  height: 4.466vw;
+}
+
+ #username, #userkana, #useradress, #tellnumber, #userpass {
+  height: 4.66vw;
+  width: 23.5vw;
+ }
+
+.custmer_icon {
+  position: absolute;
+  width: 5vw;
+  height: 3.5866vw;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #ff0000;
+  border-radius: 0.22vw;
+  margin-left: 17.5vw;
+  margin-top: 0.29vw;
+  line-height: 1.8;
+  -moz-appearance: menulist;
+  -webkit-appearance: menulist;
+}
+
+#pref_name {
+  margin-left: 16vw;
+  width: 23.06vw;
+  height: 4.466vw;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding-left: 0.7vw;
+  -moz-appearance: menulist;
+  -webkit-appearance: menulist;
+}
+
+.build_number {
+  background-color: #808080;
+}
+
+/* お支払い方法 */
+#contact_form_area2 .custmer_title {
+  margin-top: 6.5vw;
+  margin-bottom: 6.5vw;
+}
+
+.custmer_radio {
+  width: 74.19vw;
+  height: 4.466vw;
+  display: inline-block;
+  text-align: left;
+  margin-top: 1.9vw;
+  margin-left: 1vw;
+  font-family: 'Genshin_B';
+  letter-spacing: 0.02em;
+}
+
+.radio_parts {
+  margin-right: 1.2vw;
+  vertical-align: middle;
+  transform: scale(2.3);
+}
+
+.custmer_first {
+  margin-top: 0;
+}
+
+#submit_button {
+  background: linear-gradient(#8ab29e,#39a26e);
+  font-family: Genshin_B;
+  font-size: 3.99vw;
+  color: #FFFFFF;
+  border-radius: 0.659vw;
+  width: 39.971vw;
+  height: 8.346vw;
+  display: inline-block;
+  background-size: cover;
+  letter-spacing: 0.5vw;
+  margin-top: -0.5vw;
+  padding-top: 0.4vw;
+  cursor: pointer;
+}
+
+#submit_button:active {
+  filter: grayscale(1);
+  background-color: rgb(51 103 76 / 58%);
+  border-radius: 11px;
+}
+
+.traiangle_img {
+  line-height: 1.5;
+  width: 3.7vw;
+  margin-left: 0.2vw;
+  margin-right: 1.1vw;
+}
+
+#form_has_error {
+  height: 4vw;
+  margin-top: 2.613vw;
+  color: #f00;
+  font-size: 2vw;
+}
+
+/* フッター */
+footer {
+  background-image: url(../img/footer.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 5vw;
+  text-align: center;
+  font-size: 1.5vw;
+  padding-top: 1.1vw;
+}
+
+/*footer p {*/
+
+/*}*/
+
+.footer__a {
+  display: inline-block;
+  border-right: 1px solid #b3c6c2;
+  text-decoration: none;
+  color: black;
+  height: 3vw;
+  line-height: 3vw;
+}
+
+.footer__a.-link1 {
+  margin-left: 0.2vw;
+  padding-right: 0.7vw;
+}
+
+.footer__a.-link2 {
+  margin-right: 0.5vw;
+  padding-left: 0.4vw;
+  padding-right: 0.6vw;
+  letter-spacing: -0.03em;
+}
+
+.footer__a.-link3 {
+  padding-right: 0.5vw;
+}
+
+.footer__a.-link4 {
+  padding-right: 0.5vw;
+  padding-left: 0.5vw
+}
+
+.footer__a.-link5 {
+  padding-left: 0.3vw;
+  border: unset;
+}
+
+ /*----------------------レスポンシブ（SP表示の指定)----------------------*/
+ 
+@media (max-width: 1024px) {
+   /*ヘッダー */
+  #header_header {
+    background-image: url(../img/header_sp.jpg);
+    width: 100vw;
+    height: 144vw;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+  }
+
+  #header_img img {
+    position: absolute;
+    height: 36vw;
+    width: 42vw;
+    top: 95.133vw;
+    margin-top: 6.66032vw;
+    padding: 0;
+    right: 10vw;
+  }
+  
+  .text {
+    position: absolute;
+    top: 3.8vw;
+    font-size: 8.315vw;
+    font-family: Hannari;
+    color: #63977e;
+    right: 14.8vw;
+    letter-spacing: 0.04em;
+  }
+  
+  .index_1 {
+    position: absolute;
+    right: 23.5vw;
+    top: 20.5vw;
+    font-size: 3.5vw;
+    letter-spacing: 0.1em;
+    font-family: 'NotoSans';
+    color: #ffffff;
+    margin-top: 4.14vw;
+  }
+
+  .text_1 {
+    font-size: 3.7vw;
+    display: inline-block;
+    line-height: 1;
+    position: absolute;
+    top: 119vw;
+    right: 55.3vw;
+    color: white;
+    width: 33vw;
+    z-index: 6;
+  }
+
+  .text_1::after {
+    content: '';
+    display: block;
+    position: absolute;
+    transform: translate(-13vw);
+    top: 3vw;
+    right: -4vw;
+    width: 24vw;
+    height: 0.8vw;
+    background-color: #b391a2;
+    z-index: -1;
+  }
+
+  .text_2 {
+    font-size: 4vw;
+  }
+  
+  .text_3 {
+    font-family: 'Hannari';
+    font-size: 4.6vw;
+    line-height: 1.1;
+    position: absolute;
+    left: 11.5vw;
+    color: white;
+  }
+  
+  .text_3_1 {
+    position: absolute;
+    letter-spacing: 0.03em;
+    top: 67.5vw;
+    width: 40vw;
+    z-index: 3;
+  }
+  
+  .text_3::after {
+    display: none;
+  }
+
+  .text_3_2::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 13.5vw;
+    transform: translate(-13.5vw);
+    bottom: -0.3vw;
+    width: 27vw;
+    height: 0.9vw;
+    background-color: #b391a2;
+    z-index: -1;
+  }
+
+  .text_3_1:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 19.5vw;
+    transform: translate(-19vw);
+    bottom: 0vw;
+    width: 34vw;
+    height: 0.9vw;
+    background-color: #b391a2;
+    z-index: -1;
+  }
+  
+  .text_3_2 {
+    position: absolute;
+    top: 73vw;
+    width: 40vw;
+    z-index: 3;
+    content: "\A";
+    white-space: pre;
+  }
+  
+ /*インスタグラム紹介 */
+  #insta {
+    width: 100vw;
+    height: 112.6vw;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .insta_title {
+    padding-top: 2.8vw;
+  }
+  
+  .insta_title_img {
+    width: 70.9vw;
+    margin-top: 0.49vw;
+    margin-right: -1.2vw;
+  }
+  
+  .insta_subtitle {
+    font-size: 3.36vw;
+    font-family: 'NotoSans';
+    letter-spacing: 0.01em;
+    line-height: 3.9vw;
+    display: block;
+    margin: unset;
+  }
+  
+  .insta_slide {
+    overflow: hidden;
+    width: 100vw;
+    height: 88vw;
+    font-size: 2.4vw;
+  }
+  
+   .insta_post {
+    margin: auto;
+    width: 74.58vw;
+    height: 85vw;
+    display: flex;
+    overflow: scroll;
+    font-size: 2.4vw;
+  }
+  
+  .insta_sample_img {
+    margin: 0;
+    padding: 0;
+    width: 22.5vw;
+    height: auto;
+  }
+  
+  .sample {
+    padding: 0;
+    margin-left: 2vw;
+    margin-top: 0.8vw;
+    display: flex;
+    height: 2.3426vw;
+    width: 23vw;
+    line-height: 1.5em;
+  }
+  
+  .insta_icon_title {
+    width: 11.426vw;
+    height: 2.3426vw;
+  }
+  
+  #insta .insta_icon_img{
+    padding: 0;
+    width: 3.973vw;
+    height: 3.973vw;
+  }
+  
+  .post_section_first {
+    margin-left: 28vw;
+  }
+  
+  .post_section {
+    border-style: solid;
+    border-width: 0.1vw;
+    border-color: gray;
+    width: 23vw;
+    height: 79vw;
+    margin-right: 2vw;
+    margin-top: 3.9vw;
+    font-family: 'NotoSans';
+  }
+  
+  #insta .sample_text {
+    top: 33vw;
+    padding: 0;
+    width: 19vw;
+    height: 46.2vw;
+    font-size: 2.5vw;
+    font-family: 'NotoSans';
+    font-weight: unset;
+    /* letter-spacing: 0.01em; */
+    line-height: 1.3;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 3.5vw;
+  }
+  
+  #insta .insta_date {
+    right: 1.80527vw;
+    top: 73.43vw;
+    padding: 0;
+    margin: 0;
+    font-family: 'NotoSans';
+  }
+  
+   /*キャンペーン案内 */
+  .campaign {
+    position: relative;
+    padding: 0;
+    background: linear-gradient(#eaf6f0,#e3fcf5);
+    width: 100vw;
+    height: 77.3vw;
+    background-size: cover;
+  }
+  
+  .ribbon {
+    padding-top: 2.166vw;
+    text-align: center;
+    margin-bottom: 0.5vw;
+  }
+  
+  .ribbon_img {
+    padding: 0;
+    margin: 0;
+    width: 67.2vw;
+  }
+  
+  .figure {
+    position: absolute;
+    top: 18.594vw;
+    right: 60.322vw;
+    text-align: center;
+  }
+  
+  .figure_img {
+    position: absolute;
+    width: 28.8vw;
+    height: 29.384vw;
+    margin-left: 11.5vw;
+    margin-top: 3.5vw;
+  }
+  
+  .campaign .figcaption {
+    display: inline-block;
+    position: absolute;
+    font-size: 2.88vw;
+    font-family: 'NotoSans';
+    margin-left: 47vw;
+    margin-top: 14.4vw;
+  }
+  
+  .campaign_text {
+    width: 56.296vw;
+    top: 18.009vw;
+    margin-left: 42.972vw;
+    position: absolute;
+  }
+  
+  .campaign .campaign_text1 {
+    display: inline-block;
+    position: absolute;
+    width: 46.486vw;
+    font-family: 'Hannari';
+    font-size: 4vw;
+    line-height: 2.4vw;
+    margin-left: 46vw;
+    margin-top: 4.3vw;
+    letter-spacing: -0.019em;
+    border-bottom: unset;
+  }
+  
+  .campaign .campaign_text1::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 14vw;
+    transform: translate(-13vw);
+    bottom: 4px;
+    width: 44.4vw;
+    height: 1px;
+    background-color: #91b3a2;
+  }
+  
+  .campaign .campaign_text2 {
+    position: relative;
+  }
+  
+  .campaign .campaign_text1_span{
+    font-family: 'NotoSans';
+    font-size: 2.5vw;
+    letter-spacing: 0.1em;
+    margin-top: 1.5vw;
+  }
+  
+  .campaign .campaign_text2_1 {
+    position: absolute;
+    text-decoration: none;
+    font-size: 3.3vw;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 11.867vw;
+    margin-top: 35.4vw;
+    font-family: 'Genshin_M';
+  }
+  
+  .campaign .campaign_text2_1::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 13vw;
+    top: 2.3vw;
+    transform: translate(-13vw);
+    /* bottom: 2.6vw; */
+    width: 30.2vw;
+    height: 0.2vw;
+    background-color: #000000;
+  }
+  
+  .campaign .number {
+    font-family: Hannari;
+  }
+  
+  .campaign .campaign_text2_2 {
+    font-size: 3.8vw;
+    display: inline-block;
+    position: absolute;
+    width: 30vw;
+    margin-left: 11.867vw;
+    margin-top: 40.5vw;
+    font-family: 'Genshin_M';
+    font-weight: normal;
+    letter-spacing: -0.02em;
+  }
+  
+  .campaign .campaign_text2_3 {
+    display: inline-block;
+    position: absolute;
+    font-size: 1.977vw;
+    margin-left: 46vw;
+    margin-top: 32.293vw;
+    font-family: 'NotoSans';
+  }
+  
+  .campaign .campaign_text2_3_first {
+    font-family: Philosoph_R;
+    font-size: 14.4vw;
+    color: red;
+  }
+  
+  .campaign .campaign_text2_3_second {
+    color: red;
+    font-family: 'NotoSans';
+    font-weight: 500;
+    font-size: 6.667vw;
+  }
+  
+  .campaign .campaign_text2_4 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 47vw;
+    margin-top: 23vw;
+    font-size: 3.552vw;
+    line-height: 0.6;
+    font-family: 'NotoSans';
+    border-bottom: 0.859vw solid #b391a2f2;
+  }
+  
+  .campaign .campaign_button {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    width: 77vw;
+    height: 9.6vw;
+    font-size: 4.32vw;
+    font-family: 'Hannari';
+    margin-left: 10.9vw;
+    margin-top: 49vw;
+    border-radius: 2.4vw;
+    line-height: 2;
+    letter-spacing: 0.58em;
+    padding-left: 3vw;
+  }
+  
+  .campaign .campaign_text2_5 {
+    display: inline-block;
+    width: 50vw;
+    position: absolute;
+    font-size: 2.5vw;
+    margin-left: 46.5vw;
+    margin-top: 25.86vw;
+    font-family: 'NotoSans';
+    letter-spacing: 0.05vw;
+  }
+  
+  
+  .traiangle_img1 {
+    vertical-align: sub;
+    width: 4.305vw;
+    height: 3.79vw;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+  }
+  
+   /*アンケート */
+  #questionnaire {
+    background-image: url(../img/empathy_sp.jpg);
+    width: 100vw;
+    height: 80vw;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .questionnaire_questionnaire {
+    display: inline-block;
+    height: 60.029vw;
+    padding-top: 4.767vw;
+  }
+  
+  .questionnaire_title {
+    width: unset;
+    font-family: 'Hannari';
+    font-size: 4.8vw;
+    color: #63977E;
+    border-bottom: 1.5vw solid #B391A2;
+    line-height: 0.9;
+    text-align: left;
+    margin-bottom: 9.66vw;
+    margin-top: -1.5vw;
+    letter-spacing: 0.18em;
+  }
+  
+  
+  .check_answer {
+    text-align: left;
+    margin-top: 0;
+    padding-left: 1vw;
+  }
+  
+  .answer {
+    margin-top: 4.5vw;
+    font-size: 3.36vw;
+    font-family: 'NotoSans';
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+  }
+  
+  .answer.answer_5 {
+    margin-top: 5.1vw;
+  }
+  
+  .check_img {
+    width: 3.453vw;
+    height: 3.2vw;
+    font-size: 1.757vw;
+    margin-right: 1.4vw;
+    text-align: left;
+  }
+  
+   /*調査結果 */
+  #couse {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .exhibit_1_back {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 102.2vw;
+    background-image: url("../img/exhibit1_sp.jpg");
+    background-size: cover;
+    position: relative;
+  }
+
+  .exhibi1 .exhibi2 {
+    display: block;
+  }
+  
+  .exhibit_1 {
+    padding-right: 7vw;
+  }
+  
+  .exhibit_1::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 24vw;
+    transform: translate(-13vw);
+    bottom: 93.4vw;
+    width: 76.7vw;
+    height: 0.7vw;
+    background-color: #B391A2;
+  }
+  
+  .exhibit_2_back {
+    margin: 0;
+    padding: 0;
+    width: 106vw;
+    height: 105.5vw;
+    background-image: url("../img/exhibit2_sp.jpg");
+    background-size: cover;
+  }
+  
+  .exhibit_2::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 30vw;
+    transform: translate(-13vw);
+    bottom: 92.8vw;
+    width: 64.7vw;
+    height: 0.8vw;
+    background-color: #B391A2;
+    padding-left: 11vw;
+  }
+  
+  .exhibit_title {
+    width: 100vw;
+    font-size: 4.1vw;
+    font-family: 'Hannari';
+    color: #63977e;
+    border-bottom: unset;
+    display: inline-block;
+    text-align: left;
+    padding-left: 10.2vw;
+    margin-top: 3.9vw;
+    margin-bottom: 5vw;
+    line-height: 1.1;
+    letter-spacing: 0.05em;
+  }
+  
+  .-second {
+    padding-left: 0vw;
+    margin-top: 8vw;
+    margin-bottom: 9vw;
+    text-align: unset;
+    letter-spacing: 0.058em;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.294vw;
+    height: 90vw;
+    padding-right: 3.5vw;
+  }
+  
+  .content_text {
+    display: inline-block;
+    position: absolute;
+    font-size: 3.3454vw;
+    text-align: left;
+    z-index: 9;
+    width: 79.8vw;
+    height: 27vw;
+    margin-left: 9.2vw;
+    margin-top: 48.7vw;
+    font-family: 'NotoSans';
+    letter-spacing: 0.043em;
+  }
+  
+  .content_text2 {
+    width: 86.8vw;
+    margin-left: -9px;
+    margin-top: 46vw;
+    padding-left: 5.5vw;
+    font-family: 'NotoSans';
+  }
+  
+  .content_text_first {
+    margin-top: 1.3vw;
+    margin-right: 4vw;
+  }
+  
+  .content_second {
+    margin-top: 5.1vw;
+    letter-spacing: 0.02em;
+  }
+  
+  .content_img {
+    display: inline-block;
+    margin-top: -1.7vw;
+    width: 76.8vw;
+    height: 51vw;
+    margin-left: 1vw;
+  }
+  
+  .exhibit_2_back .content_img {
+    margin-top: -5vw;
+  }
+  
+  .content_img.content_img-padding {
+    margin-left: -2vw;
+  }
+  
+  .content_img2 {
+    display: inline-block;
+    margin-top: -4.7vw;
+    width: 76.8vw;
+    height: 48.2vw;
+    margin-left: 3vw;
+  }
+  
+  .animate__animated {
+    opacity: 0;
+  }
+  
+  .Arrow_img {
+    position: absolute;
+    display: inline-block;
+    width: 29.792vw;
+    height: 10.906vw;
+    z-index: 9;
+    top: 98.77vw;
+    right: 36.1vw;
+  }
+  
+   /*こだわり */
+  #point_back {
+    background-image: url("../img/benefit.jpg");
+    width: 100vw;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .point_section {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 399.5vw;
+  }
+  
+  .point_title {
+    font-family: 'Hannari';
+    font-size: 4.8vw;
+    color: #63977e;
+    margin-top: 2vw;
+    margin-bottom: 7.8vw;
+    margin-left: -3.6vw;
+    letter-spacing: 0.079em;
+  }
+  
+  .point_content {
+    text-align: center;
+    padding-left: 11vw;
+    height: 401.6vw;
+  }
+  
+  .point_point {
+    display: block;
+    height: 87.76vw;
+    width: 82vw;
+    margin-top: 4.975vw
+  }
+  
+  .point_text {
+    text-align: left;
+    width: 43.138vw;
+    height: 25.094vw;
+    display: block;
+    margin: 0;
+  }
+  
+  .point_point2 .point_text {
+    margin: 0;
+  }
+  
+  .point_point4 .point_text {
+    margin: 0;
+  }
+  
+  .point_text_title {
+    font-family: 'Hannari';
+    font-size: 4.2vw;
+    border-bottom: solid #B391A2 0.8vw;
+    line-height: 0.8;
+    display: inline-block;
+    width: 30vw;
+  }
+  
+  .point_point2 {
+    margin-top: 9.2vw;
+  }
+  
+  .point_point3 {
+    margin-top: 9.7vw;
+    
+  }
+  
+  .point_point2 .point_text_title {
+    width: 26.8vw;
+  }
+  
+  .point_point3 .point_text_title {
+    width: 40vw;
+  }
+  
+  .point_point3 .point_text_title {
+    width: 40vw;
+  }
+  
+  .point_point2 .point_img_benefit {
+    display: inline-block;
+    margin-right: 5vw;
+    width: 77.067vw;
+  }
+  
+  .point_point2 .point_caption {
+    margin-left: 9vw;
+    margin-top: 0.5vw;
+    
+  }
+  
+  .point_point4.img_left {
+    margin-top: 5vw;
+    
+  }
+  
+  .point_point4 .point_text_title {
+    width: 49vw;
+    letter-spacing: 0.05em;
+  }
+    
+  .point_forth {
+    width: 50vw;
+    margin-top: -18vw;
+  }
+  
+  .poin_wrap {
+    margin-top: 0;
+  }
+  
+  .point_text_content {
+    font-size: 3.5vw;
+    margin-top: 2.5vw;
+    padding-top: 0.8vw;
+    padding-right: 1vw;
+    border-top: 1px solid;
+    width: 77.567vw;
+    height: 22.933vw;
+    font-family: 'NotoSans';
+    line-height: 1.45;
+    letter-spacing: -0.04em;
+  }
+  
+  .point_point2 .point_img {
+    width: unset;
+    margin: unset;
+  }
+  
+  .point_img_benefit {
+    margin-left: 0;
+    margin-top: 7vw;
+    display: block;
+    width: 77.067vw;
+    height: 51.467vw;
+  }
+
+  .point_img_benefit.point_img_benefit-margin {
+    margin-top: 2.3vw;
+    
+  }
+
+  .point_img3 {
+     margin-top: 2vw;
+  }
+  
+  .point_caption {
+    font-size: 2.9vw;
+    width: 60.4vw;
+    margin-left: 9vw;
+    font-family: 'NotoSans';
+    margin-top: 1.5vw;
+  }
+  
+  .point_caption br {
+    display: none;
+  }
+  
+   /*使い方 */
+  .step_wrap {
+    background-size: cover;
+    width: 100vw;
+    height: 355.5vw;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  .step_title {
+    width: 100vw;
+    font-size: 4.533vw;
+    font-family: 'Hannari';
+    letter-spacing: 0.088em;
+    color: #63977E;
+    margin-top: 2.403vw;
+    margin-bottom: 2.9vw;
+    display: inline-block;
+  }
+  
+  .step_inner {
+    display: inline-block;
+  }
+  
+  .step_section {
+    width: 76.8vw;
+    height: 63.2vw;
+    border-bottom: 1px solid #808080;
+    display: block;
+    text-align: left;
+    margin-top: 3.294vw;
+    margin-bottom: 7vw;
+    position: relative;
+  }
+  
+  .step_section.step-margin {
+    height: 58.5vw;
+  }
+  
+  .step_section.c-margin4 {
+    margin-bottom: 8vw;
+  }
+  
+  .step_section.step_section4 {
+    height: 62.5vw;
+    margin-bottom: 10vw;
+  }
+  
+  .step_section_last {
+    border-bottom: none;
+  }
+  
+  .use_step_img {
+    display: inline-block;
+    position: absolute;
+    width: 76.8vw;
+    height: 38.4vw;
+    margin-top: 8.787vw;
+  }
+  
+  .use_step_img.c--margin {
+    margin-top: 9vw;
+  }
+
+  .use_step_img.step_img4 {
+     margin-top: 8.8vw;
+  }
+  
+  .use_step_img.step_img5 {
+      margin-top: 8vw;
+  }
+  
+  .step_text {
+    text-align: left;
+    display: inline-block;
+    width: 76.8vw;
+    height: 17.496vw;
+    font-size: 1.977vw;
+    padding: 0;
+    border: none;
+  }
+  
+  .step_text_number {
+    position: absolute;
+    display: inline-block;
+    font-size: 4.224vw;
+    font-family: 'Philosoph_I';
+    border-bottom: 0.4vw solid;
+    font-weight: normal;
+    line-height: 0.8;
+    margin-top: 0.453vw;
+    margin-left: 0;
+  }
+
+  .step_text_number.step_text_number5 {
+      margin-top: 0vw;
+  }
+  
+  .step_text_number.step_text_number4 {
+      margin-top: 0vw;
+  }
+  
+  .step_text_content {
+    position: absolute;
+    display: inline-block;
+    font-size: 3.4vw;
+    font-family: 'NotoSans';
+    width: 75.8vw;
+    height: 11.338vw;
+    margin-top: 48.227vw;
+    letter-spacing: -0.03em;
+  }
+  
+  .step_text_content.c--margin {
+    margin-top: 49vw;
+    letter-spacing: -0.01em;
+  }
+
+  .step_text_content.step_text_content5 {
+      margin-top: 48vw;
+  }
+  
+   /*お客様からのよくあるご質問 */
+  #qa {
+    position: relative;
+    background-image: url("../img/Q_A.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 261vw;
+    text-align: center;
+  }
+  
+  .qa_wrap {
+    position: absolute;
+  }
+  
+  .qa_title {
+    display: inline-block;
+    color: #63977E;
+    font-size: 4.45vw;
+    font-family: 'Hannari';
+    margin-top: 2.78vw;
+    margin-bottom: 5.504vw;
+    letter-spacing: 0.12em;
+  }
+  
+  .qa_inner {
+    display: inline-block;
+    font-size: 3.4vw;
+    width: 76.728vw;
+    height: 45.453vw;
+    text-align: left;
+    font-family: 'NotoSans';
+    line-height: 1.35;
+    letter-spacing: 0.04em;
+    border-bottom: 1px #808080 solid;
+    padding-top: 3vw;
+    margin-top: -3.3vw;
+  }
+  
+  .qa_inner.pa_inner1 {
+    margin-top: -3vw;
+    height: 41vw;
+  }
+
+  .qa_inner.pa_inner2 {
+    margin-top: -3vw;
+    height: 46vw;
+  }
+
+  .qa_inner.pa_inner3 {
+    margin-top: 2vw;
+    height: 41.5vw;
+  }
+
+  .qa_inner.pa_inner4 {
+    margin-top: 2vw;
+    height: 36.5vw;
+  }
+  
+  .qa_inner.pa_inner5 {
+    height: 40vw;
+  }
+  
+  .qa_question {
+    display: flex;
+    margin-top: 2.993vw;
+    letter-spacing: -0.01em;
+    line-height: 1em;
+  }
+  
+  .pa_inner1 .qa_question {
+    margin-top: 4.4vw;
+  }
+  
+  .pa_inner2 .qa_question {
+    margin-top: 4.5vw;
+  }
+  
+  .pa_inner3 .qa_question {
+    margin-top: -0.8vw;
+    line-height: 4.9vw;
+  }
+  
+  .pa_inner4 .qa_question {
+    margin-top: 0.01vw;
+  }
+  
+  .qa_inner_inner {
+    color: #63977E;
+    width: 3.514vw;
+    height: 4.466vw;
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 2.8vw;
+    line-height: 0.5;
+    font-family: 'Philosoph_R';
+    font-size: 6vw;
+  }
+  
+  .qa_question p {
+    display: inline-block;
+  }
+  
+  .qa_answer {
+    color: #9D3E3E;
+    width: 3.514vw;
+    height: 4.466vw;
+    display: inline-block;
+    margin-top: 0.2em;
+    line-height: 0.5;
+    font-family: 'Philosoph_R';
+  }
+  
+  .qa_inner_inner_inner {
+    display: flex;
+    margin-top: 3.4vw;
+  }
+  
+  .qa_inner_inner_inner p {
+    display: inline-block;
+    letter-spacing: -0.01em;
+    line-height: 1.5em;
+  }
+  
+  .step_section_last {
+    border-bottom: none;
+    margin-top: -1vw;
+  }
+  
+   /*お問い合わせここから */
+  #contract {
+    font-size: 2.88vw;
+    font-family: Genshin_M;
+    width: 100vw;
+    height: 263vw;
+    background-color: #ffffff;
+    text-align: center;
+    display: block;
+  }
+  
+  #contact_form_area1 {
+    width: 76.8vw;
+    height: 165.5vw;
+    display: inline-block;
+    border: 1px solid #808080;
+    border-radius: 2.4vw;
+    background-color: #ffffff;
+    margin-top: 2vw;
+    font-family: 'Genshin_B';
+    font-size: 3.2vw;
+  }
+  
+  #contact_form_area2 {
+    width: 76.8vw;
+    height: 40.8vw;
+    margin-left: 0.8vw;
+    margin-top: 12vw;
+  }
+  
+  .contract_wrap {
+    display: inline-block;
+    text-align: center;
+    width: 79.868vw;
+    height: 153.88vw;
+  }
+  
+  .custmer_title {
+    text-align: center;
+    width: 77vw;
+    height: 6.5vw;
+    background-color: #F1EFED;
+    font-family: 'Genshin_B';
+    font-size: 4.32vw;
+    border-radius: 1.581vw;
+    margin-top: 4.978vw;
+    margin-bottom: 7.199vw;
+    margin-left: 1vw;
+    letter-spacing: 0.25em;
+  }
+  
+  .custmer_text_title {
+    display: flex;
+    line-height: 1.46;
+    margin-top: -1vw;
+    letter-spacing: 0.09em;
+    font-size: 3.36vw;
+  }
+  
+  
+  .custmer_information {
+    display: inline-block;
+    width: 66.667vw;
+    height: 11.776vw;
+    position: unset;
+    margin-left: -0.876vw;
+  }
+  
+  .custmer_information:nth-child(2) {
+    margin-top: 3vw;
+  }
+  
+  .custmer_information:nth-child(4) {
+    margin-top: 3.1vw;
+  }
+  
+  .-group1 {
+    margin-top: 9.8vw;
+  }
+  
+  .-group2 {
+    margin-top: 10vw;
+  }
+  
+   .-group3 {
+    margin-top: 10vw;
+  }
+  
+  .form_parts {
+    width: 66.667vw;
+    height: 6.24vw;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 0;
+    margin-top: 0.5vw;
+    letter-spacing: 0.08em;
+  }
+  
+  .form_input {
+      position: absolute;
+  }
+  
+  #tellnumber {
+    letter-spacing: 0.02em;
+    padding-left: 1.5vw;
+  }
+  
+  #usercity, #buildname, #emailadress,#username, #userkana, #useradress, #tellnumber, #userpass {
+    width: 66.667vw;
+    height: 6.24vw;
+  }
+  
+  
+  #emailadress {
+    letter-spacing: 0.02em;
+  }
+  
+  .custmer_icon {
+    position: unset;
+    width: 6.9vw;
+    height: 4.5vw;
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: #ff0000;
+    border-radius: 0.8vw;
+    margin-left: 0.2vw;
+    letter-spacing: 0.01em;
+    margin-top: 0.08vw;
+    line-height: 1.7;
+    font-size: 2.88vw;
+  }
+  
+  #pref_name {
+    margin-left: 0;
+    margin-top: 1vw;
+    width: 66.667vw;
+    height: 6.24vw;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    letter-spacing: 0.1em;
+    -moz-appearance: menulist;
+    -webkit-appearance: menulist;
+  }
+  
+  .build_number {
+    background-color: #808080;
+    margin-left: -0.2vw;
+    margin-top: 0.3vw;
+  }
+  
+   /*お支払い方法 */
+  .custmer_radio {
+    font-family: 'NotoSans';
+    width: 69.619vw;
+    height: 4.466vw;
+    display: inline-block;
+    text-align: left;
+    margin-left: 11vw;
+    letter-spacing: 0.2em;
+    margin-top: 4.709vw;
+  }
+  
+  .radio_parts {
+    width: 4vw;
+    height: 4vw;
+    margin-right: 1.3vw;
+    vertical-align: middle;
+    transform: unset;
+  }
+  
+  .custmer_first {
+    margin-top: 1.6vw;
+    display: inline-block;
+  }
+  
+  #submit_button {
+    font-size: 3.9vw;
+    color: #FFFFFF;
+    border-radius: 2.4vw;
+    width: 38vw;
+    height: 8.346vw;
+    display: inline-block;
+    background-size: cover;
+    margin-top: -2.5vw;
+    padding-left: 2.5vw;
+    position: absolute;
+    right: 31vw;
+    letter-spacing: 0.2em;
+  }
+  
+  #submit_button:active {
+    background-color: rgb(51 103 76 / 58%);
+    z-index: 4;
+  }
+  
+  .traiangle_img {
+    line-height: 1.5;
+    width: 4.105vw;
+    height: 3.59vw;
+    margin-right: 0.3vw;
+    top: 0.4vw;
+    position: relative;
+  }
+  
+  #form_has_error {
+    height: 4vw;
+    margin-top: 2.613vw;
+    margin-bottom: 4vw;
+    color: #f00;
+    font-size: 2vw;
+  }
+  
+   /*フッター */
+   
+   footer {
+    padding: unset;
+    height: 9vw;
+    background-size: cover;
+    width: 100vw;
+    text-align: center;
+    font-size: 2.88vw;
+   }
+   
+   footer p {
+    width: 86vw;
+    display: inline-block;
+   }
+   
+  .footer__a {
+    display: inline-block;
+    border-right: 1px solid #b3c6c2;
+    text-decoration: none;
+    color: black;
+    height: 3vw;
+    line-height: 3vw;
+  }
+  
+  .footer__a.-link1 {
+    margin-right: 0.9vw;
+    margin-left: 0.8vw;
+    padding-right: 1.5vw;
+  }
+  
+  .footer__a.-link2 {
+    padding-right: 1.5vw;
+    letter-spacing: -0.02em;
+  }
+  
+  .footer__a.-link3 {
+    margin-right: 1vw;
+    margin-left: 2vw;
+    padding-right: 1.5vw;
+  }
+  
+  .footer__a.-link4 {
+    padding-right: 1.5vw;
+  }
+  
+  .footer__a.-link5 {
+    margin-left: -1vw;
+    padding-left: 2vw;
+    border: unset;
+  }
+}
+
+@media (max-width: 381px) {
+  #insta .sample_text {
+    top: 33vw;
+    padding: 0;
+    width: 19vw;
+    height: 46.2vw;
+    font-size: 1vw;
+    font-family: 'NotoSans';
+    font-weight: unset;
+    letter-spacing: -0.39em;
+    line-height: 1.2;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 3.5vw;
+  }
+  
+  #insta .insta_date {
+    right: 0.80527vw;
+    top: 73vw;
+    padding-right: 1vw;
+    margin: 0;
+    font-family: 'NotoSans';
+  }
+  
+  .campaign .campaign_text1_span {
+    font-family: 'NotoSans';
+    font-size: 2.5vw;
+    letter-spacing: 0.03em;
+    margin-top: 1.5vw;
+  }
+  
+  .answer {
+    margin-top: 4vw;
+  }
+  
+  .answer.answer_5 {
+    margin-top: 1.9vw;
+  }
+  
+  footer {
+    background-image: url(../img/footer.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 10vw;
+    text-align: center;
+    font-size: 2.88vw;
+  }
+  
+  footer p {
+    display: inline-block;
+    margin-top: 0.611vw;
+    font-family: 'NotoSans';
+    width: 82vw;
+    letter-spacing: unset;
+  }
+  
+  .footer__a {
+    display: inline-block;
+    border-right: 1px solid #b3c6c2;
+    text-decoration: none;
+    color: black;
+    height: 3vw;
+    line-height: 3vw;
+  }
+  
+  .footer__a.-link1 {
+    margin-right: 0vw;
+    padding-right: 1vw;
+  }
+  
+  .footer__a.-link2 {
+    padding-right: 1.4vw;
+  }
+  
+  .footer__a.-link3 {
+    padding-right: 1vw;
+  }
+  
+  .footer__a.-link4 {
+    padding-right: 1vw;
+  }
+
+  .campaign .campaign_button {
+    border-radius: 2.4vw;
+  }
+}
